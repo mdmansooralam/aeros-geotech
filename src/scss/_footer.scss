@@ -1,0 +1,18 @@
+footer{
+    .footer-bg{
+        background-image: url('../assets/images/top-footer-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .top-footer{
+        p{
+            font-size: 1rem;
+            @media (min-width:991px){
+                font-size: 2rem;
+                width: 60%;
+            }
+        }
+    }
+}

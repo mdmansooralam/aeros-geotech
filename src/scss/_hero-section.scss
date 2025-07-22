@@ -1,0 +1,25 @@
+.hero{
+    background-image: url('../assets/images/hero-banner.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size:cover;
+    padding-top: 100px;
+
+
+    h1{
+        width: 55%;
+        font-size: calc(0.7rem + 0.6vw);
+        @media (min-width:575px){
+            font-size: calc(1rem + 0.6vw);
+            
+        }
+        @media (min-width:768px){
+            font-size: calc(1rem + 0.6vw);
+            width: 60%;
+        }
+        @media (min-width:991px){
+            // font-size: calc(1rem + 0.6vw);
+            width: 40%;
+        }
+    }
+}
