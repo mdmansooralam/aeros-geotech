@@ -1,0 +1,28 @@
+header{
+    .navbar-nav{
+        .nav-item{
+            position: relative;
+            :focus{
+            &::after{
+                content: '';
+                display: block;
+                height: 2px;
+                width: 1rem;
+                border-radius: 10px;
+                background-color: $primary;
+                position: absolute;
+                left: 50%;
+                right: 50%;
+                translate: -50%;
+            }
+            }
+        }
+    }
+
+    nav{
+        background-color: $dark;
+        @media (min-width:991px){
+            background-color: transparent;
+        }
+    }
+}

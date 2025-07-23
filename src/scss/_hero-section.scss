@@ -7,7 +7,7 @@
 
 
     h1{
-        width: 55%;
+        width: 70%;
         font-size: calc(0.7rem + 0.6vw);
         @media (min-width:575px){
             font-size: calc(1rem + 0.6vw);
@@ -20,6 +20,10 @@
         @media (min-width:991px){
             // font-size: calc(1rem + 0.6vw);
             width: 40%;
+        }
+        @media (min-width:1200px){
+            // font-size: calc(1rem + 0.6vw);
+            width: 35%;
         }
     }
 }
