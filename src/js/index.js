@@ -159,3 +159,44 @@ document.querySelector('#subscribeForm').addEventListener('submit', (e)=>{
     e.target.reset()
 
 })
+
+
+
+//counter 
+
+const counterFunction = ()=>{
+    const counterNumber = document.querySelectorAll('.counter-number')
+    
+    const speed = 10;
+    counterNumber.forEach(currentEl => {
+        const updateNumber = ()=>{
+            const targetNumber = parseInt(currentEl.dataset.number)
+            const initialNumber = parseInt(currentEl.innerText)
+    
+            const incrementNumber = Math.trunc(targetNumber / speed)
+    
+            if(initialNumber < targetNumber){
+                currentEl.innerText = initialNumber + incrementNumber
+                setTimeout(updateNumber, 100)
+            }
+    
+        }
+        updateNumber()
+    })
+
+}
+
+
+
+
+const container = document.querySelector('.counter-container')
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(element => {
+        if(element.isIntersecting){
+            counterFunction()
+        }
+    });
+})
+
+observer.observe(container)
