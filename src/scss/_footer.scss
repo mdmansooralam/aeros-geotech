@@ -15,4 +15,18 @@ footer{
             }
         }
     }
+
+    ul a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    .social-icon i{
+        transition: all 0.5s;
+        &:hover{
+
+            color: $primary !important;
+        }
+    }
 }

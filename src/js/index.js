@@ -13,7 +13,7 @@ if(window.scrollY >= 80){
 new Swiper('.testimonials-slider', {
             slidesPerView: 1,
             loop:true,
-
+            autoplay:{delay:2000},
             breakpoints: {
                 768: {
                 slidesPerView: 2,
@@ -54,7 +54,9 @@ new Swiper('.facts-slider', {
 new Swiper('.blog-slider', {
     slidesPerView: 1.3,
     loop:true,
-    
+    autoplay:{
+        delay:3000,
+    },
     breakpoints: {
         768: {
             slidesPerView: 2.3,
@@ -79,6 +81,7 @@ new Swiper('.blog-slider', {
 new Swiper('.core-business-slider', {
     slidesPerView: 1.3,
     loop:true,
+    autoplay:{delay:2000},
     
     breakpoints: {
         768: {
@@ -135,6 +138,7 @@ new Swiper('.software-slider', {
 new Swiper('.drone-slider', {
     slidesPerView: 1,
     loop:true,
+    autoplay:{delay:3000},
     pagination: {
         el:'.drone-pagination',
         clickable: true
