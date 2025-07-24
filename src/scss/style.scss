@@ -81,6 +81,8 @@ $paragraph-margin-bottom: 0;
 @import './header';
 @import './facts-section';
 @import './our-clients-section';
+@import './core-business-section';
+@import './drone-section';
 
 
 //Font Family
@@ -96,10 +98,17 @@ $paragraph-margin-bottom: 0;
 
 //Large Screen
 @media (min-width:992px){
+  .w-lg-40{width: 40%;}
   .w-lg-50{width: 50%;}
   .w-lg-60{width: 60%;}
   .w-lg-70{width: 70%;}
   .w-lg-80{width: 80%;}
+
+  .mw-lg-100{max-width: 100%;}
+
+  //font sizes
+  .fs-lg-20{font-size: 1.25rem !important;}
+  .fs-lg-32{font-size: 2rem !important;}
 }
 
 //Xl Screen
@@ -110,9 +119,13 @@ $paragraph-margin-bottom: 0;
 //Widths
 .w-13{width: 13%;}
 .w-23{width: 23%;}
+.w-20{width: 20%;}
 .w-60{width: 60%;}
 .w-70{width: 70%;}
 .w-80{width: 80%;}
+.w-full{width: 100%;}
+
+.mw-20{max-width: 20%;}
 .mw-250{max-width: 250px;}
 .mw-306{max-width: 306px;}
 .mw-1900{max-width: 1900px;}
@@ -131,7 +144,10 @@ $paragraph-margin-bottom: 0;
 
 body{font-family: 'Barlow';};
 a{text-decoration: none; color: #C6C6C6};
+.bg-dark-2{background-color: #111B22 !important;}
 
+
+//Buttons 
 .custom-btn{
   height:40px;
   @media (min-width:991px){
@@ -141,14 +157,41 @@ a{text-decoration: none; color: #C6C6C6};
 }
 
 .gradient-btn{background: linear-gradient(to right, #EA533D, #EBA435);}
+
 .circle-btn{
-  font-size: 56px;
+  font-size: 20px;
   background: linear-gradient(to right, #EA533D, #EBA435);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+  
   cursor: pointer;
+
+  @media (min-width:575px){
+    font-size: 36px;
+  }
+  @media (min-width:992px){
+    font-size: 56px;
+  }
 }
+
+.circle-btn-primary{
+  font-size: 20px;
+  background: $primary;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  
+  cursor: pointer;
+
+  @media (min-width:575px){
+    font-size: 36px;
+  }
+  @media (min-width:992px){
+    font-size: 56px;
+  }
+}
+
 
 
 .vw-font{font-size: 0.6vw;}
@@ -196,8 +239,14 @@ a{text-decoration: none; color: #C6C6C6};
 .rotate-180{rotate: 180deg;}
 
 
-//Swiper 
+h2{
+  font-size: 2rem !important;
+  @media (min-width:992px){
+    font-size: 3rem !important;
+  }
+}
 
+//Swiper 
 .swiper-pagination-bullet{
   background-color: rgba(255, 255, 255, 0.5);
   opacity: 1;

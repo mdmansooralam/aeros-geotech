@@ -1,3 +1,13 @@
+//Navbar Background toggle
+const header = document.querySelector('header')
+window.addEventListener('scroll', ()=>{
+if(window.scrollY >= 80){
+    header.classList.add('js-toggle')
+}else{
+    header.classList.remove('js-toggle')
+}
+})
+
 
 //Testimonials Slider
 new Swiper('.testimonials-slider', {
@@ -42,29 +52,99 @@ new Swiper('.facts-slider', {
 
 //Blog Swiper Slider
 new Swiper('.blog-slider', {
-            slidesPerView: 1.3,
-            loop:true,
+    slidesPerView: 1.3,
+    loop:true,
+    
+    breakpoints: {
+        768: {
+            slidesPerView: 2.3,
+            spaceBetween: 16
+        },
+        991: {
+            slidesPerView: 4.3,
+            spaceBetween: 24
+        },
+    },
+    
+    navigation: {
+        nextEl: '.blog-slide-next',
+        prevEl: '.blog-slide-prev',
+    },
+    spaceBetween:'24',
+    // slidesOffsetAfter: -30,
+    
+});
 
-            breakpoints: {
-                768: {
-                slidesPerView: 2.3,
-                spaceBetween: 16
-                },
-                991: {
-                slidesPerView: 4.3,
-                spaceBetween: 24
-                },
-            },
+//Core Business Swiper Slider
+new Swiper('.core-business-slider', {
+    slidesPerView: 1.3,
+    loop:true,
+    
+    breakpoints: {
+        768: {
+            slidesPerView: 2.2,
+            spaceBetween: 16
+        },
+        991: {
+            slidesPerView: 4.2,
+            spaceBetween: 24
+        },
+    },
+    
+    navigation: {
+        nextEl: '.core-business-slide-next',
+        prevEl: '.core-business-slide-prev',
+    },
+    spaceBetween:'24',
+    // slidesOffsetAfter: -30,
+    
+});
 
-            navigation: {
-                nextEl: '.blog-slide-next',
-                prevEl: '.blog-slide-prev',
-            },
-            spaceBetween:'24',
-            // slidesOffsetAfter: -30,
+//Key Point swiper slider
+new Swiper('.key-point-slider', {
+    slidesPerView: 1,
+    loop:true,
+    pagination: {
+        el:'.key-point-pagination',
+        clickable: true
+    },
+    navigation: {
+        nextEl: '.key-point-slide-next',
+        prevEl: '.key-point-slide-prev',
+    },
 
-        });
+});
 
+//Software Slider
+new Swiper('.software-slider', {
+    slidesPerView: 1,
+    loop:true,
+    pagination: {
+        el:'.software-pagination',
+        clickable: true
+    },
+    navigation: {
+        nextEl: '.software-slide-next',
+        prevEl: '.software-slide-prev',
+    },
+
+});
+
+
+//Drone Slider
+new Swiper('.drone-slider', {
+    slidesPerView: 1,
+    loop:true,
+    pagination: {
+        el:'.drone-pagination',
+        clickable: true
+    },
+    navigation: {
+        nextEl: '.drone-slide-next',
+        prevEl: '.drone-slide-prev',
+    },
+
+});
 
 
 //Subscribe For 

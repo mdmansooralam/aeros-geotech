@@ -2,7 +2,7 @@ header{
     .navbar-nav{
         .nav-item{
             position: relative;
-            :focus{
+            :focus, .active{
             &::after{
                 content: '';
                 display: block;
@@ -20,9 +20,16 @@ header{
     }
 
     nav{
-        background-color: $dark;
+        backdrop-filter: blur(50px);
+        background-color: #111b2270;
         @media (min-width:991px){
             background-color: transparent;
+        }
+    }
+    &.js-toggle{
+        nav{
+            backdrop-filter: blur(50px) !important;
+            background-color: #111b2270 !important;
         }
     }
 }

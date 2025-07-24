@@ -1,0 +1,10 @@
+.core-business{
+    .swiper-wrapper .swiper-slide{
+        @media (min-width:768px){
+
+            &:nth-child(even){
+                padding-top: 30px;
+            }
+        }
+    }
+}
