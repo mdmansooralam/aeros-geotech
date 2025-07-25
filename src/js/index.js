@@ -8,7 +8,6 @@ if(window.scrollY >= 80){
 }
 })
 
-
 //Testimonials Slider
 new Swiper('.testimonials-slider', {
             slidesPerView: 1,
@@ -33,7 +32,6 @@ new Swiper('.testimonials-slider', {
 
 });
 
-
 //Facts Slider
 new Swiper('.facts-slider', {
     slidesPerView: 1,
@@ -48,7 +46,6 @@ new Swiper('.facts-slider', {
     },
 
 });
-
 
 //Blog Swiper Slider
 new Swiper('.blog-slider', {
@@ -133,7 +130,6 @@ new Swiper('.software-slider', {
 
 });
 
-
 //Drone Slider
 new Swiper('.drone-slider', {
     slidesPerView: 1,
@@ -150,7 +146,6 @@ new Swiper('.drone-slider', {
 
 });
 
-
 //Subscribe For 
 document.querySelector('#subscribeForm').addEventListener('submit', (e)=>{
     e.preventDefault()
@@ -160,10 +155,7 @@ document.querySelector('#subscribeForm').addEventListener('submit', (e)=>{
 
 })
 
-
-
 //counter 
-
 const counterFunction = ()=>{
     const counterNumber = document.querySelectorAll('.counter-number') 
     const speed = 25;
@@ -176,7 +168,7 @@ const counterFunction = ()=>{
     
             if(initialNumber < targetNumber){
                 currentEl.innerText = initialNumber + incrementNumber
-                setTimeout(updateNumber, 30)
+                setTimeout(updateNumber, 50)
             }
     
         }
@@ -185,16 +177,14 @@ const counterFunction = ()=>{
 
 }
 
-
 const container = document.querySelector('.counter-container')
-
 const observer = new IntersectionObserver(entries => {
     entries.forEach(element => {
         if(element.isIntersecting){
             counterFunction()
         }
     });
-})
+}, {threshold:0.5})
 
 if(container){
     observer.observe(container)

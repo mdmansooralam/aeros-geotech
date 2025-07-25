@@ -109,13 +109,21 @@ $paragraph-margin-bottom: 0;
 
   //font sizes
   .fs-lg-20{font-size: 1.25rem !important;}
+  .fs-lg-16{font-size: 1rem !important;}
   .fs-lg-32{font-size: 2rem !important;}
+  .fs-lg-6{font-size: calc(1.325rem + 0.9vw) !important ;}
 }
 
 //Xl Screen
 @media(min-width:1200px){
   .w-xl-50{width: 50%;}
 }
+
+
+//height
+.me-full{margin-right: calc(-50vw + 50% + 12px)}
+
+.mh-400{max-height: 20rem;}
 
 //Widths
 .w-13{width: 13%;}
@@ -156,6 +164,14 @@ section a:hover{text-decoration: underline;}
     width:184px; //184
     height:56px; // 56
   } 
+}
+a.d-grid{
+  transition: all .3s;
+  &:hover{
+
+    scale: 0.98;
+  }
+
 }
 
 .gradient-btn{background: linear-gradient(to right, #EA533D, #EBA435);}

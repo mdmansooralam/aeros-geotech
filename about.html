@@ -1,291 +1,557 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Aeros Geotech</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-        <link rel="stylesheet" href="./src/css/style.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeros Geotech</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.min.css">
 
-    </head>
-    <body>
-        <header>
-            <nav class="navbar  fixed-top navbar-expand-lg" data-bs-theme="dark">
-                <div class="container d-flex">
-                    <a aria-label="logo" class="navbar-brand py-0" href="index.html"><img class="logo-translate" src="./src/assets/icons/logo.svg" alt="Logo"></a>
-                    <a href="#" class="d-grid order-lg-1 ms-auto me-3 me-lg-0 " >
+</head>
+<body>
+    <header>
+        <nav class="navbar  fixed-top navbar-expand-lg" data-bs-theme="dark">
+            <div class="container d-flex">
+                <a aria-label="logo" class="navbar-brand py-0" href="index.html"><img class="logo-translate" src="./src/assets/icons/logo.svg" alt="Logo"></a>
+                <a href="#" class="d-grid order-lg-1 ms-auto me-3 me-lg-0 " >
+                    <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_78)">
+                        <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
+                        <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
+                        </g>
+                        <defs>
+                        <linearGradient id="paint0_linear_1_78" x1="0.946045" y1="28" x2="189.006" y2="28" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#EA533D"/>
+                        <stop offset="1" stop-color="#EBA435"/>
+                        </linearGradient>
+                        <clipPath id="clip0_1_78">
+                        <rect width="183.273" height="56" fill="white" transform="translate(0.672607)"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+
+                    <span class="grid-area-1/1 text-white font-orbitron fw-semibold">Contact Us</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto gap-lg-3 gap-xl-32 align-items-center">
+                        <li class="nav-item ">
+                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Drone as service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Training</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="about-hero position-relative pt-100">
+            <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
+                <div class="d-grid">
+                    <img class="img-fluid grid-area-1/1" src="./src/assets/images/about-banner-pattern.svg" alt="left pattern">
+                    <h1 class="fw-medium grid-area-1/1 fs-4 text-primary font-orbitron lh-sm">About Us</h1>
+                </div>
+                <div>
+                    <img class="img-fluid " src="./src/assets/images/about-drone-banner.webp" alt="dron image">
+                </div>
+            </div>
+            <div>
+                <img class="w-100" src="./src/assets/images/hero-bottom.webp" alt="bottom pattern">
+            </div>
+        </section>
+
+        <section class="key-point py-5 py-lg-100 position-relative">
+            <div>
+                <img class="mw-20 ms-3 mt-3 mt-lg-4 mw-lg-100 position-absolute top-0 start-0" src="./src/assets/images/key-point-drone-left.webp" alt="drone image">
+                <img class="mw-20 mt-3 mt-lg-4 mw-lg-100 position-absolute top-0 end-0" src="./src/assets/images/key-point-drone-right.webp" alt="drone image">
+            </div>
+            <div class="container">
+                <div class="mb-lg-72 mb-4 text-center w-lg-70 mx-auto">
+                    <span class="text-primary ls-16">KEY POINTS</span>
+                    <p class="mt-3 fs-lg-20">Aeros Geotech Sdn Bhd is a company specialised in drones, located in Teluk Intan. Aeros Geotech Sdn Bhd was established in 2018 and distributes DJI Agras products. Their core business is in agriculture and mapping technology. They specialise in agricultural drone technology and services. In addition, the company has qualified DJI drone operators and trainers. Their core business is agricultural spraying and application services.</p>
+                </div>
+                <div class="d-flex justify-content-center w-lg-80 mx-auto">
+                    <button class="d-none d-sm-block key-point-slide-prev rotate-180 circle-btn d-block border-0 pointer"><i class="bi bi-play-circle"></i></button>
+                    <div class="w-80 text-center">
+                        <div class="swiper key-point-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="./src/assets/images/dron-slider-image.webp" alt="slider image">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="./src/assets/images/drone-slider-image.webp" alt="slider image">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="./src/assets/images/dron-slider-image.webp" alt="slider image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="d-none d-sm-block key-point-slide-next circle-btn d-block border-0 pointer"><i class="bi bi-play-circle-fill"></i></button>
+                </div>
+                <div class="key-point-pagination d-flex justify-content-center mt-4 mt-lg-72"></div>
+
+                <div class="row d-flex justify-content-between row-gap-4  mt-lg-72 mt-4 ">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="fact-card flex-grow-1 ps-32 border-start border-lg-bottom border-2 border-primary">
+                            <span class="fs-lg-32 fs-3 fw-bold text-primary">50KG</span>
+                            <div class="mt-lg-20 fs-lg-20 text-white">
+                                <p>50kg spreading payload[1]</p>
+                                <P>40kg spraying payload[1]</P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="fact-card flex-grow-1 ps-32 border-start border-2 border-primary">
+                            <span class="fs-lg-32 fs-3 fw-bold text-primary">ACTIVE PHASED ARRAY</span>
+                            <div class="mt-lg-20 fs-lg-20 text-white">
+                                <p>Active phased array Radar+</p>
+                                <P>Binoculor vision</P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="fact-card flex-grow-1 ps-32 border-start border-2 border-primary">
+                            <span class="fs-lg-32 fs-3 fw-bold text-primary">DUAL AUTOMIZED</span>
+                            <div class="mt-lg-20 fs-lg-20 text-white">
+                                <p>Dual Automized</p>
+                                <P>Spraying System</P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="fact-card flex-grow-1 ps-32 border-start border-2 border-primary">
+                            <span class="fs-lg-32 fs-3 fw-bold text-primary">SUPPORTS FLIGHT</span>
+                            <div class="mt-lg-20 fs-lg-20 text-white">
+                                <p>Supports flight spraying/spreading   </p>
+                                <P>and RC mapping</P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="fact-card flex-grow-1 ps-32 border-start border-2 border-primary">
+                            <span class="fs-lg-32 fs-3 fw-bold text-primary">IPX6K</span>
+                            <div class="mt-lg-20 fs-lg-20 text-white">
+                                <p>Core Modules</p>
+                                <P>IPX6K [2]</P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="fact-card flex-grow-1 ps-32 border-start border-2 border-primary">
+                            <span class="fs-lg-32 fs-3 fw-bold text-primary">EFI GENERATOR</span>
+                            <div class="mt-lg-20 fs-lg-20 text-white">
+                                <p>EFI Generator</p>
+                                <P>15% fuel saving[3]</P>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
+        </section>
+
+        <section class="core-business py-5 py-lg-100 position-relative bg-dark-2">
+            <img class="mw-20 mw-lg-100 position-absolute top-0 end-0 mt-3 me-3" src="./src/assets/images/core-business-drone.webp" alt="drone image">
+            <div class="text-center w-lg-50 mx-auto">
+                <span class="text-primary ls-16">CORE BUSINESS</span>
+                <h2 class="mb-20 mt-3 text-white">Traverse, Built,  <span class="text-primary fw-semibold underline-style">Encourage</span></h2>
+                <p class="mb-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="container position-relative">
+                <div class="me-full overflow-hidden">
+                    <div class="swiper core-business-slider overflow-visible">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class=" mw-306 ">
+                                    <div class="mb-20 overflow-hidden mh-400 mh-400"><img class="img-fluid" src="./src/assets/images/core-business-1.webp" alt="card image"></div>
+                                    <p class="fs-4 mb-2 text-white fw-medium">3S (Sales, Service & Spare part)</p>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                                    <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class=" mw-306 ">
+                                    <div class="mb-20 overflow-hidden mh-400"><img class="img-fluid" src="./src/assets/images/core-business-2.webp" alt="card image"></div>
+                                    <p class="fs-4 mb-2 text-white fw-medium">Agriculture</p>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                                    <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class=" mw-306 ">
+                                    <div class="mb-20 overflow-hidden mh-400"><img class="img-fluid" src="./src/assets/images/core-business-3.webp" alt="card image"></div>
+                                    <p class="fs-4 mb-2 text-white fw-medium">Inspection</p>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                                    <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class=" mw-306 ">
+                                    <div class="mb-20 overflow-hidden mh-400"><img class="img-fluid" src="./src/assets/images/core-business-4.webp" alt="card image"></div>
+                                    <p class="fs-4 mb-2 text-white fw-medium">Geo Mapping</p>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                                    <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class=" mw-306 ">
+                                    <div class="mb-20 overflow-hidden mh-400"><img class="img-fluid" src="./src/assets/images/core-business-5.webp" alt="card image"></div>
+                                    <p class="fs-4 mb-2 text-white fw-medium">Search and Rescue & Others</p>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                                    <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class=" mw-306 ">
+                                    <div class="mb-20 overflow-hidden mh-400"><img class="img-fluid" src="./src/assets/images/core-business-1.webp" alt="card image"></div>
+                                    <p class="fs-4 mb-2 text-white fw-medium">3S (Sales, Service & Spare part)</p>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                                    <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class=" mw-306 ">
+                                    <div class="mb-20 overflow-hidden mh-400"><img class="img-fluid" src="./src/assets/images/core-business-2.webp" alt="card image"></div>
+                                    <p class="fs-4 mb-2 text-white fw-medium">Agriculture</p>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                                    <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class=" mw-306 ">
+                                    <div class="mb-20 overflow-hidden mh-400"><img class="img-fluid" src="./src/assets/images/core-business-3.webp" alt="card image"></div>
+                                    <p class="fs-4 mb-2 text-white fw-medium">Inspection</p>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                                    <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class=" mw-306 ">
+                                    <div class="mb-20 overflow-hidden mh-400"><img class="img-fluid" src="./src/assets/images/core-business-4.webp" alt="card image"></div>
+                                    <p class="fs-4 mb-2 text-white fw-medium">Geo Mapping</p>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                                    <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class=" mw-306 ">
+                                    <div class="mb-20 overflow-hidden mh-400"><img class="img-fluid" src="./src/assets/images/core-business-5.webp" alt="card image"></div>
+                                    <p class="fs-4 mb-2 text-white fw-medium">Search and Rescue & Others</p>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                                    <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-lg-4 gap-3 justify-content-center mt-sm-4 mt-lg-50">
+                        <button class="core-business-slide-prev rotate-180 circle-btn d-block border-0 pointer"><i class="bi bi-play-circle"></i></button>
+                        <button class="core-business-slide-next circle-btn d-block border-0 pointer"><i class="bi bi-play-circle-fill"></i></button>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="certificate py-5 py-lg-100 position-relative">
+            <img class="mw-20 mw-lg-100 position-absolute start-0 top-0 mt-4 ms-4" src="./src/assets/images/certificate-section-drone.webp" alt="drone image">
+            <div class="container d-flex flex-column align-items-center flex-lg-row justify-content-between">
+                <div class="w-lg-60  text-center text-lg-start mb-4">
+                    <span class="text-primary ls-16">CERTIFICATIONS</span>
+                    <h2 class=" text-white"><span class="underline-style">All Certificates</span></h2>
+                    <div class="d-flex mt-lg-40 mt-4 justify-content-center justify-content-lg-start">
+                        <a href="#" class="d-grid" >
                         <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_78)">
                             <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
                             <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
                             </g>
-                            <defs>
-                            <linearGradient id="paint0_linear_1_78" x1="0.946045" y1="28" x2="189.006" y2="28" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#EA533D"/>
-                            <stop offset="1" stop-color="#EBA435"/>
-                            </linearGradient>
-                            <clipPath id="clip0_1_78">
-                            <rect width="183.273" height="56" fill="white" transform="translate(0.672607)"/>
-                            </clipPath>
-                            </defs>
                         </svg>
 
-                        <span class="grid-area-1/1 text-white font-orbitron fw-semibold">Contact Us</span>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav mx-auto gap-lg-3 gap-xl-32 align-items-center">
-                            <li class="nav-item ">
-                                <a class="nav-link " aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Product</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Drone as service</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link active">About us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Training</a>
-                            </li>
-                        </ul>
+                        <span class="grid-area-1/1 text-white font-orbitron">READ MORE</span>
+                        </a>
                     </div>
-
-                </div>
-            </nav>
-        </header>
-
-        <main>
-
-            <section class="about-hero position-relative pt-100">
-                <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
-                    <div class="d-grid">
-                        <img class="img-fluid grid-area-1/1" src="./src/assets/images/about-banner-pattern.svg" alt="left pattern">
-                        <h1 class="fw-medium grid-area-1/1 fs-4 text-primary font-orbitron lh-sm">About Us</h1>
-                    </div>
-                    <div>
-                        <img class="img-fluid " src="./src/assets/images/about-drone-banner.webp" alt="dron image">
-                    </div>
-                </div>
-                <div>
-                    <img class="w-100" src="./src/assets/images/hero-bottom.webp" alt="bottom pattern">
-                </div>
-            </section>
-
-            <section class="key-point py-5 py-lg-100 position-relative">
-                <div>
-                    <img class="mw-20 ms-3 mt-3 mt-lg-4 mw-lg-100 position-absolute top-0 start-0" src="./src/assets/images/key-point-drone-left.webp" alt="drone image">
-                    <img class="mw-20 mt-3 mt-lg-4 mw-lg-100 position-absolute top-0 end-0" src="./src/assets/images/key-point-drone-right.webp" alt="drone image">
-                </div>
-                <div class="container">
-                    <div class="mb-lg-72 mb-4 text-center w-lg-70 mx-auto">
-                        <span class="text-primary ls-16">KEY POINTS</span>
-                        <p class="mt-3 fs-lg-20">Aeros Geotech Sdn Bhd is a company specialised in drones, located in Teluk Intan. Aeros Geotech Sdn Bhd was established in 2018 and distributes DJI Agras products. Their core business is in agriculture and mapping technology. They specialise in agricultural drone technology and services. In addition, the company has qualified DJI drone operators and trainers. Their core business is agricultural spraying and application services.</p>
-                    </div>
-                    <div class="d-flex justify-content-center w-lg-80 mx-auto">
-                        <button class="d-none d-sm-block key-point-slide-prev rotate-180 circle-btn d-block border-0 pointer"><i class="bi bi-play-circle"></i></button>
-                        <div class="w-80 text-center">
-                            <div class="swiper key-point-slider">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <img class="img-fluid" src="./src/assets/images/dron-slider-image.webp" alt="slider image">
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img class="img-fluid" src="./src/assets/images/drone-slider-image.webp" alt="slider image">
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img class="img-fluid" src="./src/assets/images/dron-slider-image.webp" alt="slider image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="d-none d-sm-block key-point-slide-next circle-btn d-block border-0 pointer"><i class="bi bi-play-circle-fill"></i></button>
-                    </div>
-                    <div class="key-point-pagination d-flex justify-content-center mt-4 mt-lg-72"></div>
-
-                    <div class="row d-flex justify-content-between row-gap-4  mt-lg-72 mt-4 ">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="fact-card flex-grow-1 ps-32 border-start border-lg-bottom border-2 border-primary">
-                                <span class="fs-lg-32 fs-3 fw-bold text-primary">50KG</span>
-                                <div class="mt-lg-20 fs-lg-20 text-white">
-                                    <p>50kg spreading payload[1]</p>
-                                    <P>40kg spraying payload[1]</P>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="fact-card flex-grow-1 ps-32 border-start border-2 border-primary">
-                                <span class="fs-lg-32 fs-3 fw-bold text-primary">ACTIVE PHASED ARRAY</span>
-                                <div class="mt-lg-20 fs-lg-20 text-white">
-                                    <p>Active phased array Radar+</p>
-                                    <P>Binoculor vision</P>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="fact-card flex-grow-1 ps-32 border-start border-2 border-primary">
-                                <span class="fs-lg-32 fs-3 fw-bold text-primary">DUAL AUTOMIZED</span>
-                                <div class="mt-lg-20 fs-lg-20 text-white">
-                                    <p>Dual Automized</p>
-                                    <P>Spraying System</P>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="fact-card flex-grow-1 ps-32 border-start border-2 border-primary">
-                                <span class="fs-lg-32 fs-3 fw-bold text-primary">SUPPORTS FLIGHT</span>
-                                <div class="mt-lg-20 fs-lg-20 text-white">
-                                    <p>Supports flight spraying/spreading   </p>
-                                    <P>and RC mapping</P>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="fact-card flex-grow-1 ps-32 border-start border-2 border-primary">
-                                <span class="fs-lg-32 fs-3 fw-bold text-primary">IPX6K</span>
-                                <div class="mt-lg-20 fs-lg-20 text-white">
-                                    <p>Core Modules</p>
-                                    <P>IPX6K [2]</P>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="fact-card flex-grow-1 ps-32 border-start border-2 border-primary">
-                                <span class="fs-lg-32 fs-3 fw-bold text-primary">EFI GENERATOR</span>
-                                <div class="mt-lg-20 fs-lg-20 text-white">
-                                    <p>EFI Generator</p>
-                                    <P>15% fuel saving[3]</P>
-                                </div>
-                            </div>
-                        </div>
                     
+                    
+                </div>
+                <div class="d-grid position-relative">
+                    <img class="position-absolute img-fluid bottom-0 end-0 me-3 mb-5 z-n1" src="./src/assets/images/dot-pattern.svg" alt="dot pattern">
+                    <img class="position-absolute img-fluid top-0 start-0 mt-3 ms-5 z-n1" src="./src/assets/images/dot-pattern.svg" alt="dot pattern">
+                    <img class="grid-area-1/1 img-fluid" src="./src/assets/images/square-pattern.svg" alt="square pattern">
+                    <div class="grid-area-1/1 p-3">
+                        <img class=" img-fluid" src="./src/assets/images/certificate-drone.webp" alt="drone image">
                     </div>
                 </div>
+            </div>
+        </section>
 
-            </section>
-
-            <section class="core-business py-5 py-lg-100 position-relative">
-                <img class="mw-20 mw-lg-100 position-absolute top-0 end-0 mt-3 me-3" src="./src/assets/images/core-business-drone.webp" alt="drone image">
-                <div class="text-center w-lg-50 mx-auto">
-                    <span class="text-primary ls-16">CORE BUSINESS</span>
-                    <h2 class="mb-20 mt-3 text-white">Traverse, Built,  <span class="text-primary fw-semibold underline-style">Encourage</span></h2>
-                    <p class="mb-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <section class="vision py-5 py-lg-100 bg-dark-2 position-relative">
+            <img class="position-absolute end-0 top-0 mw-20 mw-lg-100 mt-lg-5 mt-3 me-3" src="./src/assets/images/core-business-drone.webp" alt="dron image">
+            <div class="container d-flex gap-lg-5 flex-column align-items-center flex-lg-row justify-content-between">
+                <div class="w-lg-60 order-lg-1  text-center text-lg-start mb-4">
+                    <span class="text-primary ls-16">VISION</span>
+                    <p class="fs-lg-20 mt-3">It is a proven fact that by utilizing drone technology, customers can significantly overcome labor shortage issues and reduce the risk to their employees when performing certain tasks that are normally categorized as ‘High Risk’ in Handling Pesticide Management. We assist our customers in their efforts to reduce their operating expenses by achieving the same results by utilizing drones to perform many tasks that are normally completed using more expensive options.</p>
                 </div>
-                <div class="container">
-                    <div class="w-100 overflow-hidden">
-                        <div class="swiper core-business-slider overflow-visible">
+                <div class="d-grid position-relative mt-4 mt-lg-0">
+                    <img class="position-absolute img-fluid top-0 start-0 mt-2 ms-4" src="./src/assets/images/dot-pattern.svg" alt="dot pattern">
+                    <img class="grid-area-1/1 img-fluid" src="./src/assets/images/square-pattern.svg" alt="square pattern">
+                    <div class="grid-area-1/1 p-3 position-relative z-1">
+                        <img class=" img-fluid" src="./src/assets/images/vision-drone.webp" alt="drone image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mission py-5 py-lg-100  position-relative">
+            <img class="position-absolute start-0 top-0 mw-20 mw-lg-100 mt-lg-5 mt-3 ms-3" src="./src/assets/images/blog-drone.webp" alt="dron image">
+            <div class="container d-flex gap-lg-5 flex-column align-items-center flex-lg-row justify-content-between">
+                <div class="w-lg-60 text-center text-lg-start mb-4">
+                    <span class="text-primary ls-16">MISSION</span>
+                    <p class="fs-lg-20 mt-3">Aeros Geotech Sdn. Bhd. mission is to provide Aerial Work services utilizing agriculture Drones to help our customers work safer, faster, and smarter. We help clients respond to emergency situations, perform preventative maintenance, and enhance the current knowledge of their existing assets.</p>
+                </div>
+                <div class="d-grid position-relative mt-4 mt-lg-0">
+                    <img class="position-absolute img-fluid top-0 start-0 mt-3 ms-4" src="./src/assets/images/dot-pattern.svg" alt="dot pattern">
+                    <img class="position-absolute img-fluid bottom-0 end-0 mb-5 me-2" src="./src/assets/images/dot-pattern.svg" alt="dot pattern">
+                    <img class="grid-area-1/1 img-fluid" src="./src/assets/images/square-pattern.svg" alt="square pattern">
+                    <div class="grid-area-1/1 p-4 position-relative z-1">
+                        <img class=" img-fluid" src="./src/assets/images/mission-drone.webp" alt="drone image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="software py-5 py-lg-100">
+            <div class="text-center mb-4 mb-lg-72">
+                <span class="text-primary ls-16">Software</span>
+                <h2 class="text-white mb-20"><span class="underline-style">Software</span></h2>
+                <p class="fs-lg-20">Process and Analyzing</p>
+            </div>
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <button class="software-slide-prev rotate-180 circle-btn d-block border-0 pointer"><i class="bi bi-play-circle"></i></button>
+                    <div class="w-80">
+                        <div class="swiper software-slider">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class=" mw-306 ">
-                                        <div class="mb-20 overflow-hidden"><img class="img-fluid" src="./src/assets/images/core-business-1.webp" alt="card image"></div>
-                                        <p class="fs-4 mb-2 text-white fw-medium">3S (Sales, Service & Spare part)</p>
-                                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-                                        <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                    <img class="w-100" src="./src/assets/images/software.webp" alt="slider image">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="w-100" src="./src/assets/images/software.webp" alt="slider image">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="w-100" src="./src/assets/images/software.webp" alt="slider image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="software-slide-next circle-btn d-block border-0 pointer"><i class="bi bi-play-circle-fill"></i></button>
+
+                </div>
+                <div class="software-pagination text-center mt-4 mt-lg-72"></div>
+                <div class="d-flex justify-content-center gap-lg-100 gap-4 flex-wrap  mt-4 mt-lg-72">
+                    <img class="img-fluid" src="./src/assets/icons/software-icon1.svg" alt="software icon">
+                    <img class="img-fluid" src="./src/assets/icons/software-icon2.svg" alt="software icon">
+                    <img class="img-fluid" src="./src/assets/icons/software-icon3.svg" alt="software icon">
+                    <img class="img-fluid" src="./src/assets/icons/software-icon4.svg" alt="software icon">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="drone pt-5 pt-lg-72 pb-5 pb-lg-0 bg-dark-2">
+            <div class="text-center mb-4 mb-lg-50">
+                <span class="text-primary ls-16">DRONE</span>
+                <h2 class=" text-white">Drone <span class="underline-style text-primary fw-semibold">Models</span></h2>
+            </div>
+            <div class="py-100 bg-img position-relative mw-1900 mx-auto">
+                <img class="w-100 position-absolute bottom-0 start-0" src="./src/assets/images/drone-model-bottom.svg" alt="bottom border image">
+                <div class="container d-flex justify-content-end">
+                    <div class="slider-container">
+                        <div class="swiper drone-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="bg-dark rounded-4 p-3 p-lg-40">
+                                        <div class="d-flex mb-32 justify-content-between align-items-center">
+                                            <div class="fw-medium text-white fs-4 fs-lg-6">DJI Agras t20</div>
+                                            <a href="#" class="d-grid" >
+                                                <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_1_78)">
+                                                    <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
+                                                    <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
+                                                    </g>
+                                                </svg>
+
+                                                <span class="grid-area-1/1 text-white font-orbitron">More Details</span>
+                                            </a>
+                                        </div>
+                                        <div class="mb-100 text-center">
+                                            <img class="img-fluid" src="./src/assets/images/drone-model-1.webp" alt="slider image">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class=" mw-306 ">
-                                        <div class="mb-20 overflow-hidden"><img class="img-fluid" src="./src/assets/images/core-business-2.webp" alt="card image"></div>
-                                        <p class="fs-4 mb-2 text-white fw-medium">Agriculture</p>
-                                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-                                        <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                    <div class="bg-dark rounded-4 p-3 p-lg-40">
+                                        <div class="d-flex mb-32 justify-content-between align-items-center">
+                                            <div class="fw-medium text-white fs-4 fs-lg-6">DJI Agras t20</div>
+                                            <a href="#" class="d-grid" >
+                                                <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_1_78)">
+                                                    <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
+                                                    <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
+                                                    </g>
+                                                </svg>
+
+                                                <span class="grid-area-1/1 text-white font-orbitron">More Details</span>
+                                            </a>
+                                        </div>
+                                        <div class="mb-100 text-center">
+                                            <img class="img-fluid" src="./src/assets/images/drone-model-1.webp" alt="slider image">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class=" mw-306 ">
-                                        <div class="mb-20 overflow-hidden"><img class="img-fluid" src="./src/assets/images/core-business-3.webp" alt="card image"></div>
-                                        <p class="fs-4 mb-2 text-white fw-medium">Inspection</p>
-                                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-                                        <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                    <div class="bg-dark rounded-4 p-3 p-lg-40">
+                                        <div class="d-flex mb-32 justify-content-between align-items-center">
+                                            <div class="fw-medium text-white fs-4 fs-lg-6">DJI Agras t20</div>
+                                            <a href="#" class="d-grid" >
+                                                <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_1_78)">
+                                                    <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
+                                                    <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
+                                                    </g>
+                                                </svg>
+
+                                                <span class="grid-area-1/1 text-white font-orbitron">More Details</span>
+                                            </a>
+                                        </div>
+                                        <div class="mb-100 text-center">
+                                            <img class="img-fluid" src="./src/assets/images/drone-model-1.webp" alt="slider image">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class=" mw-306 ">
-                                        <div class="mb-20 overflow-hidden"><img class="img-fluid" src="./src/assets/images/core-business-4.webp" alt="card image"></div>
-                                        <p class="fs-4 mb-2 text-white fw-medium">Geo Mapping</p>
-                                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-                                        <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                    <div class="bg-dark rounded-4 p-3 p-lg-40">
+                                        <div class="d-flex mb-32 justify-content-between align-items-center">
+                                            <div class="fw-medium text-white fs-4 fs-lg-6">DJI Agras t20</div>
+                                            <a href="#" class="d-grid" >
+                                                <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_1_78)">
+                                                    <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
+                                                    <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
+                                                    </g>
+                                                </svg>
+
+                                                <span class="grid-area-1/1 text-white font-orbitron">More Details</span>
+                                            </a>
+                                        </div>
+                                        <div class="mb-100 text-center">
+                                            <img class="img-fluid" src="./src/assets/images/drone-model-1.webp" alt="slider image">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class=" mw-306 ">
-                                        <div class="mb-20 overflow-hidden"><img class="img-fluid" src="./src/assets/images/core-business-5.webp" alt="card image"></div>
-                                        <p class="fs-4 mb-2 text-white fw-medium">Search and Rescue & Others</p>
-                                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-                                        <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
+                                    <div class="bg-dark rounded-4 p-3 p-lg-40">
+                                        <div class="d-flex mb-32 justify-content-between align-items-center">
+                                            <div class="fw-medium text-white fs-4 fs-lg-6">DJI Agras t20</div>
+                                            <a href="#" class="d-grid" >
+                                                <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_1_78)">
+                                                    <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
+                                                    <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
+                                                    </g>
+                                                </svg>
+
+                                                <span class="grid-area-1/1 text-white font-orbitron">More Details</span>
+                                            </a>
+                                        </div>
+                                        <div class="mb-100 text-center">
+                                            <img class="img-fluid" src="./src/assets/images/drone-model-1.webp" alt="slider image">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class=" mw-306 ">
-                                        <div class="mb-20 overflow-hidden"><img class="img-fluid" src="./src/assets/images/core-business-1.webp" alt="card image"></div>
-                                        <p class="fs-4 mb-2 text-white fw-medium">3S (Sales, Service & Spare part)</p>
-                                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-                                        <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class=" mw-306 ">
-                                        <div class="mb-20 overflow-hidden"><img class="img-fluid" src="./src/assets/images/core-business-2.webp" alt="card image"></div>
-                                        <p class="fs-4 mb-2 text-white fw-medium">Agriculture</p>
-                                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-                                        <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class=" mw-306 ">
-                                        <div class="mb-20 overflow-hidden"><img class="img-fluid" src="./src/assets/images/core-business-3.webp" alt="card image"></div>
-                                        <p class="fs-4 mb-2 text-white fw-medium">Inspection</p>
-                                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-                                        <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class=" mw-306 ">
-                                        <div class="mb-20 overflow-hidden"><img class="img-fluid" src="./src/assets/images/core-business-4.webp" alt="card image"></div>
-                                        <p class="fs-4 mb-2 text-white fw-medium">Geo Mapping</p>
-                                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-                                        <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class=" mw-306 ">
-                                        <div class="mb-20 overflow-hidden"><img class="img-fluid" src="./src/assets/images/core-business-5.webp" alt="card image"></div>
-                                        <p class="fs-4 mb-2 text-white fw-medium">Search and Rescue & Others</p>
-                                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-                                        <a class="d-inline-block fw-semibold ls-10 text-primary" href="#">LEARN MORE</a>
-                                    </div>
-                                </div>
-                                
+                                </div>    
                             </div>
                         </div>
 
-                        <div class="d-flex gap-4 justify-content-center mt-sm-4 mt-lg-50">
-                            <button class="core-business-slide-prev rotate-180 circle-btn d-block border-0 pointer"><i class="bi bi-play-circle"></i></button>
-                            <button class="core-business-slide-next circle-btn d-block border-0 pointer"><i class="bi bi-play-circle-fill"></i></button>
+                        <div class="d-flex justify-content-between align-items-center px-40 mt-n50 mt-sm-n72 mt-lg-n100 z-1 position-relative">
+                            <div class="drone-pagination"></div>
+                            <div class="d-flex gap-2 gap-lg-3">
+                                <button class="drone-slide-prev rotate-180 circle-btn-primary d-block border-0 pointer"><i class="bi bi-play-circle"></i></button>
+                                <button class="drone-slide-next circle-btn-primary d-block border-0 pointer"><i class="bi bi-play-circle-fill"></i></button>
+                            </div>
                         </div>
-
                     </div>
                 </div>
+            </div>
+            
 
-            </section>
+        </section>
 
-            <section class="certificate py-5 py-lg-100 position-relative">
-                <img class="mw-20 mw-lg-100 position-absolute start-0 top-0 mt-4 ms-4" src="./src/assets/images/certificate-section-drone.webp" alt="drone image">
-                <div class="container d-flex flex-column align-items-center flex-lg-row justify-content-between">
-                    <div class="w-lg-60  text-center text-lg-start mb-4">
-                        <span class="text-primary ls-16">CERTIFICATIONS</span>
-                        <h2 class=" text-white"><span class="underline-style">All Certificates</span></h2>
-                        <div class="d-flex mt-lg-40 mt-4 justify-content-center justify-content-lg-start">
-                            <a href="#" class="d-grid" >
+        <section class="our-clients py-5 py-lg-100 position-relative bg-dark-2">
+            <img class="position-absolute mw-20 mw-lg-100 top-0 start-0 mt-4 ms-4" src="./src/assets/images/client-drone.webp" alt="drone image">
+            <div class="container">
+                <div class="text-center w-lg-50 mx-auto px-3 px-sm-0">
+                    <span class="text-primary ls-16">CLIENTS</span>
+                    <h2 class="mb-20 mt-3 text-white">Our <span class="text-primary fw-semibold underline-style">Clients</span></h2>
+                    <p class="mb-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="row border-container">
+                    <div class="col-6 col-md-4 py-4 py-xl-72 d-flex justify-content-center align-items-center"> 
+                        <img class="img-fluid" src="./src/assets/icons/logo-client-1.svg" alt="client logo">
+                    </div>
+                    <div class="col-6 col-md-4 py-4 py-xl-72 d-flex justify-content-center align-items-center" >
+                        <img class="img-fluid" src="./src/assets/icons/logo-client-2.svg" alt="client logo">
+                    </div>
+                    <div class="col-6 col-md-4 py-4 py-xl-72 d-flex justify-content-center align-items-center" >
+                        <img class="img-fluid" src="./src/assets/icons/logo-client-3.svg" alt="client logo">
+                    </div>
+                    <div class="col-6 col-md-4 py-4 py-xl-72 d-flex justify-content-center align-items-center" >
+                        <img class="img-fluid" src="./src/assets/icons/logo-client-4.svg" alt="client logo">
+                    </div>
+                    <div class="col-6 col-md-4 py-4 py-xl-72 d-flex justify-content-center align-items-center" >
+                        <img class="img-fluid" src="./src/assets/icons/logo-client-5.svg" alt="client logo">
+                    </div>
+                    <div class="col-6 col-md-4 py-4 py-xl-72 d-flex justify-content-center align-items-center" >
+                        <img class="img-fluid" src="./src/assets/icons/logo-client-6.svg" alt="client logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer>
+        <div class="top-footer pt-5 py-lg-72">
+            <div class="container">
+                <div class="py-lg-50 py-4 px-3 px-lg-72 d-flex rounded-4 justify-content-between flex-column flex-lg-row align-items-center footer-bg">
+                    <p class="fw-medium text-center text-lg-start mb-3 mb-lg-0 text-white">What are you waiting for? Contact us right now and get a free quote for your project</p>
+                    
+                    <div class="d-flex flex-lg-column flex-wrap flex-sm-nowrap justify-content-center gap-lg-4 gap-2">
+                        <a href="#" class="d-grid order-lg-1 ms-lg-auto me-2 me-lg-0" >
                             <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_78)">
                                 <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
@@ -293,367 +559,101 @@
                                 </g>
                             </svg>
 
-                            <span class="grid-area-1/1 text-white font-orbitron">READ MORE</span>
-                            </a>
-                        </div>
-                        
-                        
-                    </div>
-                    <div class="d-grid position-relative">
-                        <img class="position-absolute img-fluid bottom-0 end-0 me-3 mb-5 z-n1" src="./src/assets/images/dot-pattern.svg" alt="dot pattern">
-                        <img class="position-absolute img-fluid top-0 start-0 mt-3 ms-5 z-n1" src="./src/assets/images/dot-pattern.svg" alt="dot pattern">
-                        <img class="grid-area-1/1 img-fluid" src="./src/assets/images/square-pattern.svg" alt="square pattern">
-                        <div class="grid-area-1/1 p-3">
-                            <img class=" img-fluid" src="./src/assets/images/certificate-drone.webp" alt="drone image">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="vision py-5 py-lg-100 bg-dark-2 position-relative">
-                <img class="position-absolute end-0 top-0 mw-20 mw-lg-100 mt-lg-5 mt-3 me-3" src="./src/assets/images/core-business-drone.webp" alt="dron image">
-                <div class="container d-flex gap-lg-5 flex-column align-items-center flex-lg-row justify-content-between">
-                    <div class="w-lg-60 order-lg-1  text-center text-lg-start mb-4">
-                        <span class="text-primary ls-16">VISION</span>
-                        <p class="fs-lg-20 mt-3">It is a proven fact that by utilizing drone technology, customers can significantly overcome labor shortage issues and reduce the risk to their employees when performing certain tasks that are normally categorized as ‘High Risk’ in Handling Pesticide Management. We assist our customers in their efforts to reduce their operating expenses by achieving the same results by utilizing drones to perform many tasks that are normally completed using more expensive options.</p>
-                    </div>
-                    <div class="d-grid position-relative mt-4 mt-lg-0">
-                        <img class="position-absolute img-fluid top-0 start-0 mt-2 ms-4" src="./src/assets/images/dot-pattern.svg" alt="dot pattern">
-                        <img class="grid-area-1/1 img-fluid" src="./src/assets/images/square-pattern.svg" alt="square pattern">
-                        <div class="grid-area-1/1 p-3 position-relative z-1">
-                            <img class=" img-fluid" src="./src/assets/images/vision-drone.webp" alt="drone image">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="mission py-5 py-lg-100  position-relative">
-                <img class="position-absolute start-0 top-0 mw-20 mw-lg-100 mt-lg-5 mt-3 ms-3" src="./src/assets/images/blog-drone.webp" alt="dron image">
-                <div class="container d-flex gap-lg-5 flex-column align-items-center flex-lg-row justify-content-between">
-                    <div class="w-lg-60 text-center text-lg-start mb-4">
-                        <span class="text-primary ls-16">MISSION</span>
-                        <p class="fs-lg-20 mt-3">Aeros Geotech Sdn. Bhd. mission is to provide Aerial Work services utilizing agriculture Drones to help our customers work safer, faster, and smarter. We help clients respond to emergency situations, perform preventative maintenance, and enhance the current knowledge of their existing assets.</p>
-                    </div>
-                    <div class="d-grid position-relative mt-4 mt-lg-0">
-                        <img class="position-absolute img-fluid top-0 start-0 mt-3 ms-4" src="./src/assets/images/dot-pattern.svg" alt="dot pattern">
-                        <img class="position-absolute img-fluid bottom-0 end-0 mb-5 me-2" src="./src/assets/images/dot-pattern.svg" alt="dot pattern">
-                        <img class="grid-area-1/1 img-fluid" src="./src/assets/images/square-pattern.svg" alt="square pattern">
-                        <div class="grid-area-1/1 p-4 position-relative z-1">
-                            <img class=" img-fluid" src="./src/assets/images/mission-drone.webp" alt="drone image">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="software py-5 py-lg-100">
-                <div class="container">
-                    <div class="text-center mb-4 mb-lg-72">
-                        <span class="text-primary ls-16">Software</span>
-                        <h2 class="text-white mb-20"><span class="underline-style">Software</span></h2>
-                        <p class="fs-lg-20">Process and Analyzing</p>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <button class="software-slide-prev rotate-180 circle-btn d-block border-0 pointer"><i class="bi bi-play-circle"></i></button>
-                        <div class="w-80">
-                            <div class="swiper software-slider">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <img class="w-100" src="./src/assets/images/software.webp" alt="slider image">
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img class="w-100" src="./src/assets/images/software.webp" alt="slider image">
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img class="w-100" src="./src/assets/images/software.webp" alt="slider image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="software-slide-next circle-btn d-block border-0 pointer"><i class="bi bi-play-circle-fill"></i></button>
-
-                    </div>
-                    <div class="software-pagination text-center mt-4 mt-lg-72"></div>
-                    <div class="d-flex justify-content-center gap-lg-100 gap-4 flex-wrap  mt-4 mt-lg-72">
-                        <img class="img-fluid" src="./src/assets/icons/software-icon1.svg" alt="software icon">
-                        <img class="img-fluid" src="./src/assets/icons/software-icon2.svg" alt="software icon">
-                        <img class="img-fluid" src="./src/assets/icons/software-icon3.svg" alt="software icon">
-                        <img class="img-fluid" src="./src/assets/icons/software-icon4.svg" alt="software icon">
-                    </div>
-                </div>
-
-            </section>
-
-            <section class="drone pt-5 pt-lg-72 pb-5 pb-lg-0">
-                <div class="text-center mb-4 mb-lg-50">
-                    <span class="text-primary ls-16">DRONE</span>
-                    <h2 class=" text-white">Drone <span class="underline-style text-primary fw-semibold">Models</span></h2>
-                </div>
-                <div class="py-100 bg-img position-relative mw-1900 mx-auto">
-                    <img class="w-100 position-absolute bottom-0 start-0" src="./src/assets/images/drone-model-bottom.svg" alt="bottom border image">
-                    <div class="container d-flex justify-content-end">
-                        <div class="slider-container">
-                            <div class="swiper drone-slider">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="bg-dark rounded-4 p-3 p-lg-40">
-                                            <div class="d-flex mb-32 justify-content-between align-items-center">
-                                                <div class="fw-medium text-white fs-6">DJI Agras t20</div>
-                                                <a href="#" class="d-grid" >
-                                                    <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <g clip-path="url(#clip0_1_78)">
-                                                        <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
-                                                        <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
-                                                        </g>
-                                                    </svg>
-
-                                                    <span class="grid-area-1/1 text-white font-orbitron">More Details</span>
-                                                </a>
-                                            </div>
-                                            <div class="mb-100 text-center">
-                                                <img class="img-fluid" src="./src/assets/images/drone-model-1.webp" alt="slider image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="bg-dark rounded-4 p-3 p-lg-40">
-                                            <div class="d-flex mb-32 justify-content-between align-items-center">
-                                                <div class="fw-medium text-white fs-6">DJI Agras t20</div>
-                                                <a href="#" class="d-grid" >
-                                                    <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <g clip-path="url(#clip0_1_78)">
-                                                        <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
-                                                        <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
-                                                        </g>
-                                                    </svg>
-
-                                                    <span class="grid-area-1/1 text-white font-orbitron">More Details</span>
-                                                </a>
-                                            </div>
-                                            <div class="mb-100 text-center">
-                                                <img class="img-fluid" src="./src/assets/images/drone-model-1.webp" alt="slider image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="bg-dark rounded-4 p-3 p-lg-40">
-                                            <div class="d-flex mb-32 justify-content-between align-items-center">
-                                                <div class="fw-medium text-white fs-6">DJI Agras t20</div>
-                                                <a href="#" class="d-grid" >
-                                                    <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <g clip-path="url(#clip0_1_78)">
-                                                        <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
-                                                        <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
-                                                        </g>
-                                                    </svg>
-
-                                                    <span class="grid-area-1/1 text-white font-orbitron">More Details</span>
-                                                </a>
-                                            </div>
-                                            <div class="mb-100 text-center">
-                                                <img class="img-fluid" src="./src/assets/images/drone-model-1.webp" alt="slider image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="bg-dark rounded-4 p-3 p-lg-40">
-                                            <div class="d-flex mb-32 justify-content-between align-items-center">
-                                                <div class="fw-medium text-white fs-6">DJI Agras t20</div>
-                                                <a href="#" class="d-grid" >
-                                                    <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <g clip-path="url(#clip0_1_78)">
-                                                        <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
-                                                        <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
-                                                        </g>
-                                                    </svg>
-
-                                                    <span class="grid-area-1/1 text-white font-orbitron">More Details</span>
-                                                </a>
-                                            </div>
-                                            <div class="mb-100 text-center">
-                                                <img class="img-fluid" src="./src/assets/images/drone-model-1.webp" alt="slider image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="bg-dark rounded-4 p-3 p-lg-40">
-                                            <div class="d-flex mb-32 justify-content-between align-items-center">
-                                                <div class="fw-medium text-white fs-6">DJI Agras t20</div>
-                                                <a href="#" class="d-grid" >
-                                                    <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <g clip-path="url(#clip0_1_78)">
-                                                        <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
-                                                        <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
-                                                        </g>
-                                                    </svg>
-
-                                                    <span class="grid-area-1/1 text-white font-orbitron">More Details</span>
-                                                </a>
-                                            </div>
-                                            <div class="mb-100 text-center">
-                                                <img class="img-fluid" src="./src/assets/images/drone-model-1.webp" alt="slider image">
-                                            </div>
-                                        </div>
-                                    </div>    
-                                </div>
-                            </div>
-
-                            <div class="d-flex justify-content-between align-items-center px-40 mt-n50 mt-sm-n72 mt-lg-n100 z-1 position-relative">
-                                <div class="drone-pagination"></div>
-                                <div class="d-flex gap-2 gap-lg-3">
-                                    <button class="drone-slide-prev rotate-180 circle-btn-primary d-block border-0 pointer"><i class="bi bi-play-circle"></i></button>
-                                    <button class="drone-slide-next circle-btn-primary d-block border-0 pointer"><i class="bi bi-play-circle-fill"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-
-            </section>
-
-            <section class="our-clients py-5 py-lg-100 position-relative">
-                <img class="position-absolute mw-20 mw-lg-100 top-0 start-0 mt-4 ms-4" src="./src/assets/images/client-drone.webp" alt="drone image">
-                <div class="container">
-                    <div class="text-center w-lg-50 mx-auto px-3 px-sm-0">
-                        <span class="text-primary ls-16">CLIENTS</span>
-                        <h2 class="mb-20 mt-3 text-white">Our <span class="text-primary fw-semibold underline-style">Clients</span></h2>
-                        <p class="mb-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="row border-container">
-                        <div class="col-6 col-md-4 py-4 py-xl-72 d-flex justify-content-center align-items-center"> 
-                            <img class="img-fluid" src="./src/assets/icons/logo-client-1.svg" alt="client logo">
-                        </div>
-                        <div class="col-6 col-md-4 py-4 py-xl-72 d-flex justify-content-center align-items-center" >
-                            <img class="img-fluid" src="./src/assets/icons/logo-client-2.svg" alt="client logo">
-                        </div>
-                        <div class="col-6 col-md-4 py-4 py-xl-72 d-flex justify-content-center align-items-center" >
-                            <img class="img-fluid" src="./src/assets/icons/logo-client-3.svg" alt="client logo">
-                        </div>
-                        <div class="col-6 col-md-4 py-4 py-xl-72 d-flex justify-content-center align-items-center" >
-                            <img class="img-fluid" src="./src/assets/icons/logo-client-4.svg" alt="client logo">
-                        </div>
-                        <div class="col-6 col-md-4 py-4 py-xl-72 d-flex justify-content-center align-items-center" >
-                            <img class="img-fluid" src="./src/assets/icons/logo-client-5.svg" alt="client logo">
-                        </div>
-                        <div class="col-6 col-md-4 py-4 py-xl-72 d-flex justify-content-center align-items-center" >
-                            <img class="img-fluid" src="./src/assets/icons/logo-client-6.svg" alt="client logo">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </main>
-        
-        <footer>
-            <div class="top-footer pt-5 py-lg-72">
-                <div class="container">
-                    <div class="py-lg-50 py-4 px-3 px-lg-72 d-flex rounded-4 justify-content-between flex-column flex-lg-row align-items-center footer-bg">
-                        <p class="fw-medium text-center text-lg-start mb-3 mb-lg-0 text-white">What are you waiting for? Contact us right now and get a free quote for your project</p>
-                        
-                        <div class="d-flex flex-lg-column flex-wrap flex-sm-nowrap justify-content-center gap-lg-4 gap-2">
-                            <a href="#" class="d-grid order-lg-1 ms-lg-auto me-2 me-lg-0" >
-                                <svg class="grid-area-1/1 custom-btn"  viewBox="0 0 184 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1_78)">
-                                    <path d="M1.02066 0H169.267L183.946 14.5881V56H16.5826L0.946045 40.4561L1.02066 0Z" fill="url(#paint0_linear_1_78)"/>
-                                    <path d="M183.947 6.13783V0H177.321L183.947 6.13783Z" fill="#EA533D"/>
-                                    </g>
-                                </svg>
-
-                                <span class="grid-area-1/1 text-white font-orbitron fw-semibold">FREE QUOTE</span>
-                            </a>
-                            <a href="#" class="d-grid order-lg-1 ms-lg-auto me-2 me-lg-0 " >
-                                <svg class="grid-area-1/1 custom-btn" viewBox="0 0 184 57" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1_2729)">
-                                    <path d="M169.061 1.06934L183.446 15.3643V56.0693H16.7888L1.44604 40.8174L1.51929 1.06934H169.061Z" stroke="white"/>
-                                    <path d="M183.947 6.70717V0.569336H177.321L183.947 6.70717Z" fill="white"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_1_2729">
-                                    <rect width="183.273" height="56" fill="white" transform="translate(0.672607 0.569336)"/>
-                                    </clipPath>
-                                    </defs>
-                                </svg>
-                                <span class="grid-area-1/1 text-white font-orbitron fw-semibold">CONTACT US</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="footer-middle py-5 py-lg-72">
-                <div class="container d-flex justify-content-between flex-column flex-lg-row">
-                    <div class="text-center text-lg-start mb-32 mb-lg-0">
-                        <a href="index.html" aria-label="site logo">
-                            <img src="./src/assets/icons/logo.svg" alt="logo">
+                            <span class="grid-area-1/1 text-white font-orbitron fw-semibold fs-1 fs-lg-16">FREE QUOTE</span>
                         </a>
-                        <p class="mt-3 mb-32">Change Your Point of View, Change Your History</p>
-                        <form id="subscribeForm" class="mb-32 d-flex gap-md-3 gap-1 flex-wrap flex-sm-nowrap justify-content-center justify-content-lg-start">
-                            <input placeholder="Email Address" required name="email" type="email" class="py-md-3 py-2 border-0 px-32 rounded-3">
-                            <button type="submit" class="border-0 bg-transparent">
-                                <img class="img-fluid" src="./src/assets/icons/sm-btn.svg" alt="button image">
-                            </button>
-                        </form>
-                        <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
-                            <a aria-label="twitter link" class="social-icon fs-3" href="#"><i class="bi bi-twitter p-1 text-white"></i></a>
-                            <a aria-label="facebook link" class="social-icon fs-3" href="#"><i class="bi bi-facebook p-1 text-white"></i></a>
-                            <a aria-label="linkedin link" class="social-icon fs-3" href="#"><i class="bi bi-linkedin p-1 text-white"></i></a>
-                            <a aria-label="youtube link" class="social-icon fs-3" href="#"><i class="bi bi-youtube p-1 text-white"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="d-flex me-xl-72 ms-3 ms-xl-0 gap-lg-72 gap-xl-100 flex-column flex-md-row align-items-center align-items-md-start justify-content-between">
-
-                        <div class="text-center text-md-start mw-250">
-                            <span class="fw-semibold fs-3">Contact</span>
-                            <ul class="list-unstyled d-flex flex-column gap-20 mt-4">
-                                <li><a href="mailto:admin@geotech.com"><i class="bi bi-envelope"></i> admin@geotech.com</a></li>
-                                <li><a href="tel:+605-7239999"><i class="bi bi-telephone-forward"></i> +605-7239999 </a> </li>
-                                <li><i class="bi bi-geo-alt"></i> Aeros Geotech Sdn. Bhd.2A, Lintang Maju 1/1 Taman Serai Maju 134300 Bagan SeraiPerak</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="text-center text-md-start">
-                            <span class="fw-semibold fs-3">Explore</span>
-                            <ul class="list-unstyled d-flex flex-column gap-20 mt-4">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Product</a></li>
-                                <li><a href="#">Drone as Service</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Training</a></li>
-                                
-                            </ul>
-                        </div>
-
-                        <div class="text-center text-md-start">
-                            <span class="fw-semibold fs-3">Support</span>
-                            <ul class="list-unstyled d-flex flex-column gap-20 mt-4">
-                                <li><a href="#">Support Desk</a></li>
-                                <li><a href="#">Career</a></li>
-                                <li><a href="#">FAQS</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Call Center</a></li>
-                                
-                            </ul>
-                        </div>
-                        
+                        <a href="#" class="d-grid order-lg-1 ms-lg-auto me-2 me-lg-0 fs-1 fs-lg-16" >
+                            <svg class="grid-area-1/1 custom-btn" viewBox="0 0 184 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_2729)">
+                                <path d="M169.061 1.06934L183.446 15.3643V56.0693H16.7888L1.44604 40.8174L1.51929 1.06934H169.061Z" stroke="white"/>
+                                <path d="M183.947 6.70717V0.569336H177.321L183.947 6.70717Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_2729">
+                                <rect width="183.273" height="56" fill="white" transform="translate(0.672607 0.569336)"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                            <span class="grid-area-1/1 text-white font-orbitron fw-semibold">CONTACT US</span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="bottom-footer py-20 border-top">
-                <div class="container d-flex flex-column flex-md-row align-items-center gap-3 justify-content-between">
 
-                    <p>Copyright©2022 ASK Project</p>
-                    <div class="d-flex gap-20">
-                        <a  href="#">Privacy Policy</a>
-                        <a  href="#">Terms & Services</a>
+        </div>
+        <div class="footer-middle py-5 py-lg-72">
+            <div class="container d-flex justify-content-between flex-column flex-lg-row">
+                <div class="text-center text-lg-start mb-32 mb-lg-0">
+                    <a href="index.html" aria-label="site logo">
+                        <img src="./src/assets/icons/logo.svg" alt="logo">
+                    </a>
+                    <p class="mt-3 mb-32">Change Your Point of View, Change Your History</p>
+                    <form id="subscribeForm" class="mb-32 d-flex gap-md-3 gap-1 flex-wrap flex-sm-nowrap justify-content-center justify-content-lg-start">
+                        <input placeholder="Email Address" required name="email" type="email" class="py-md-3 py-2 border-0 px-32 rounded-3">
+                        <button type="submit" class="border-0 bg-transparent">
+                            <img class="img-fluid" src="./src/assets/icons/sm-btn.svg" alt="button image">
+                        </button>
+                    </form>
+                    <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+                        <a aria-label="twitter link" class="social-icon fs-3" href="#"><i class="bi bi-twitter p-1 text-white"></i></a>
+                        <a aria-label="facebook link" class="social-icon fs-3" href="#"><i class="bi bi-facebook p-1 text-white"></i></a>
+                        <a aria-label="linkedin link" class="social-icon fs-3" href="#"><i class="bi bi-linkedin p-1 text-white"></i></a>
+                        <a aria-label="youtube link" class="social-icon fs-3" href="#"><i class="bi bi-youtube p-1 text-white"></i></a>
                     </div>
                 </div>
-            </div>
-        </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script src="./src/js/index.js"></script>
-    </body>
+                <div class="d-flex me-xl-72 ms-3 ms-xl-0 gap-lg-72 gap-xl-100 flex-column flex-md-row align-items-center align-items-md-start justify-content-between">
+
+                    <div class="text-center text-md-start mw-250">
+                        <span class="fw-semibold fs-3">Contact</span>
+                        <ul class="list-unstyled d-flex flex-column gap-20 mt-4">
+                            <li><a href="mailto:admin@geotech.com"><i class="bi bi-envelope"></i> admin@geotech.com</a></li>
+                            <li><a href="tel:+605-7239999"><i class="bi bi-telephone-forward"></i> +605-7239999 </a> </li>
+                            <li><i class="bi bi-geo-alt"></i> Aeros Geotech Sdn. Bhd.2A, Lintang Maju 1/1 Taman Serai Maju 134300 Bagan SeraiPerak</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="text-center text-md-start">
+                        <span class="fw-semibold fs-3">Explore</span>
+                        <ul class="list-unstyled d-flex flex-column gap-20 mt-4">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">Drone as Service</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Training</a></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="text-center text-md-start">
+                        <span class="fw-semibold fs-3">Support</span>
+                        <ul class="list-unstyled d-flex flex-column gap-20 mt-4">
+                            <li><a href="#">Support Desk</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">FAQS</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Call Center</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer py-20 border-top">
+            <div class="container d-flex flex-column flex-md-row align-items-center gap-3 justify-content-between">
+
+                <p>Copyright©2022 ASK Project</p>
+                <div class="d-flex gap-20">
+                    <a  href="#">Privacy Policy</a>
+                    <a  href="#">Terms & Services</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./src/js/index.js"></script>
+</body>
 </html>
