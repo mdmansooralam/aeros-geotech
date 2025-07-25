@@ -165,9 +165,8 @@ document.querySelector('#subscribeForm').addEventListener('submit', (e)=>{
 //counter 
 
 const counterFunction = ()=>{
-    const counterNumber = document.querySelectorAll('.counter-number')
-    
-    const speed = 10;
+    const counterNumber = document.querySelectorAll('.counter-number') 
+    const speed = 25;
     counterNumber.forEach(currentEl => {
         const updateNumber = ()=>{
             const targetNumber = parseInt(currentEl.dataset.number)
@@ -177,7 +176,7 @@ const counterFunction = ()=>{
     
             if(initialNumber < targetNumber){
                 currentEl.innerText = initialNumber + incrementNumber
-                setTimeout(updateNumber, 100)
+                setTimeout(updateNumber, 30)
             }
     
         }
@@ -185,8 +184,6 @@ const counterFunction = ()=>{
     })
 
 }
-
-
 
 
 const container = document.querySelector('.counter-container')
@@ -199,4 +196,6 @@ const observer = new IntersectionObserver(entries => {
     });
 })
 
-observer.observe(container)
+if(container){
+    observer.observe(container)
+}
